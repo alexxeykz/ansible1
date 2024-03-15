@@ -7,7 +7,7 @@ root@testvm:/home/Ansible# vagrant ssh-config
 Host nginx
   HostName 127.0.0.1
   User vagrant
-  Port 2200
+  Port 2222
   UserKnownHostsFile /dev/null
   StrictHostKeyChecking no
   PasswordAuthentication no
@@ -21,7 +21,7 @@ Host nginx
 ansible nginx -i staging/hosts -m ping
 
 root@testvm:/home/Ansible# ansible nginx -i staging/hosts -m ping
-The authenticity of host '[127.0.0.1]:2200 ([127.0.0.1]:2200)' can't be established.
+The authenticity of host '[127.0.0.1]:2222 ([127.0.0.1]:2222)' can't be established.
 ED25519 key fingerprint is SHA256:CaQePAGRhKdAaVfqPEq7bJV8jGOUqRlo2RtFxyJnNF4.
 This key is not known by any other names
 Are you sure you want to continue connecting (yes/no/[fingerprint])? y
@@ -44,7 +44,7 @@ retry_files_enabled = False
 Смотрим файл
 
 [web]
-nginx ansible_host=127.0.0.1 ansible_port=2200 ansible_private_key_file=.vagrant/machines/nginx/virtualbox/private_key
+nginx ansible_host=127.0.0.1 ansible_port=2222 ansible_private_key_file=.vagrant/machines/nginx/virtualbox/private_key
 
 Проверяем
 
