@@ -211,8 +211,6 @@ This system is built by the Bento project by Chef Software
 More information can be found at https://github.com/chef/bento
 Last login: Fri Mar 15 11:22:12 2024 from 10.0.2.2
 vagrant@nginx:~$ curl http://192.168.11.150:8080
-curl: (7) Failed to connect to 192.168.11.150 port 8080 after 2031 ms: Network is unreachable
-vagrant@nginx:~$ curl http://192.168.9.150:8080
 <!DOCTYPE html>
 <html>
 <head>
