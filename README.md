@@ -204,7 +204,7 @@ Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.0-92-generic x86_64)
   System load:  0.00439453125      Processes:             134
   Usage of /:   12.6% of 30.34GB   Users logged in:       0
   Memory usage: 31%                IPv4 address for eth0: 10.0.2.15
-  Swap usage:   0%                 IPv4 address for eth1: 192.168.9.150
+  Swap usage:   0%                 IPv4 address for eth1: 192.168.11.150
 
 
 This system is built by the Bento project by Chef Software
